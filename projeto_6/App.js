@@ -1,20 +1,47 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {View, Text, Image, StyleSheet} from 'react-native';
+import bart from './assets/bart.png'
+
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    return(
+        <View style={estilos.container}>
+            <Text style={estilos.titulo}>Os Simpsons</Text>
+
+            <Image source={bart} style={estilos.img}/>
+
+            <Text style={estilos.texto}>Bart o filho mais velho</Text>
+        </View>
+    )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+
+
+const estilos = StyleSheet.create({
+    container: {
+        backgroundColor: 'yellow',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
+    titulo: {
+        color: 'black',
+        fontSize: 40,
+        marginBottom: 20,
+    },
+
+    img: {
+        width: 250,
+        height: 250,
+        marginBottom: 20,
+        borderColor:'black',
+        borderWidth: 3,
+        borderRadius: 125,
+    },
+
+    texto: {
+        color: 'black',
+        fontSize: 25,
+    }
 });
