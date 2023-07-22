@@ -8,16 +8,12 @@ import renato from './assets/renato.jpg'
 export default function App() {
     return(
         <View style={estilos.container}>
-            
-            <View style={estilos.boximg}>
-                <Image source={familia} style={estilos.img}/>
-            </View>
+
+           <Image source={familia} style={{width:392, height:450}}/>
 
             <View style={estilos.boxperfil}>
                 <Image source={renato} style={estilos.fotoperfil}/>
-
                 <Text style={estilos.titulo}> Renato Linard </Text>
-                
                 <Text style={estilos.descrição}> 
                 Formado em Quimica Industrial pela instituição CESFA,
                 atuo na area de caldeira há 13 anos. No momento estou
@@ -42,23 +38,12 @@ const estilos = StyleSheet.create({
         borderWidth: 2,
         borderRadius: 75,
     },
-
-    img: {
-        width: 392,
-        height: 400,
-    },
     
-    boximg: {
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-
     titulo: {
         fontSize: 30,
         color: 'black',
         marginBottom: 15,
         marginTop: 15,
-
     },
 
     descrição: {
@@ -71,6 +56,7 @@ const estilos = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
+        flex: 1,
     },
 });
 
