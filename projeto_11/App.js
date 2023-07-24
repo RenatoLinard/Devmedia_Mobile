@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import Topo from './Components/Topo';
-import Conteudo from './Components/Conteudo';
+import Topo from './Components/topo/index';
+import Conteudo from './Components/conteudo/index';
 
 export default function App() {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
-import {Text, StyleSheet, View, Image} from 'react-native';
+import {Text, View, Image} from 'react-native';
+import estilos from './componentes/estilo';
 
 export default function App() {
   return (
@@ -17,25 +18,3 @@ export default function App() {
 
 }
 
-const estilos = StyleSheet.create({
-  texto: {
-    marginTop: 20,
-    fontSize: 30,
-  },
-
-  container: {
-    backgroundColor: 'lightblue',
-    flex:1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-
-  img: {
-    marginTop: 20,
-    marginBottom: 20,
-    width: 150,
-    height: 150,
-  }
-
-
-});
