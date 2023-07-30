@@ -1,19 +1,20 @@
 import React from "react";
-import { Button, View, Text } from "react-native";
-import estilo from "../styles";
+import { Button, Text, View } from "react-native";
+import styles from "../styles";
 
 
 
 export default function TelaContato(props) {
-    return (
-        <View style={estilo.container}>
-            <Text style={estilo.titulo}> Tela de Contato </Text>
-
-            <View style={estilo.buttonBox}>
+    return(
+        <View style={styles.container}>
+            <Text style={styles.titulo}>
+                67998811748
+            </Text>
+            <View style={styles.boxBottom}>
                 <Button title="Tela Inicial" 
-                        onPress={() => props.navigation.navigate('Tela Inicial')}/>
+                    onPress={() => {props.navigation.navigate('Tela Inicial')
+                 }}/>
             </View>
         </View>
-
     )
 };
