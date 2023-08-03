@@ -1,9 +1,9 @@
 import { StyleSheet } from "react-native";
 
-const styleBottomSquirtle = StyleSheet.create({
+const style = StyleSheet.create({
     
      viewTouch: {
-        backgroundColor: 'lightblue',
+        backgroundColor: '#e28743',
         height: 45,
         width: 355,
         flexDirection: 'row',
@@ -11,9 +11,9 @@ const styleBottomSquirtle = StyleSheet.create({
         borderColor: 'black',
         borderWidth: 2,
         borderRadius: 10,
+        marginBottom: 14,
         marginHorizontal: 20,
         paddingHorizontal: 100,
-        marginBottom: 14,
     },
 
     fontViewTouch: {
@@ -28,4 +28,4 @@ const styleBottomSquirtle = StyleSheet.create({
     },
 });
 
-export default styleBottomSquirtle;
+export default style;

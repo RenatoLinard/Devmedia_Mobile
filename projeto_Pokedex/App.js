@@ -7,8 +7,8 @@ import Pikachu from "./components/rotaPikachu";
 import Charmander from "./components/rotaCharmander";
 import Bulbassauro from "./components/rotaBulbassauro";
 import Squirtle from "./components/rotaSquirtle";
-
-
+import Gastly from "./components/rotaGastly";
+import Eevee from './components/rotaEevee/';
 
 
 const Stack = createStackNavigator();
@@ -22,6 +22,8 @@ export default function App() {
                 <Stack.Screen name="CHARMANDER" component={Charmander}/>
                 <Stack.Screen name="BULBASSAURO" component={Bulbassauro}/>
                 <Stack.Screen name="SQUIRTLE" component={Squirtle}/> 
+                <Stack.Screen name="GASTLY" component={Gastly}/> 
+                <Stack.Screen name="EEVEE" component={Eevee}/> 
 
             </Stack.Navigator>
         </NavigationContainer>
