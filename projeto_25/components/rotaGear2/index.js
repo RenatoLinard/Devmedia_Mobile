@@ -12,7 +12,7 @@ export default function Gear2() {
             style={styles.container}
             resizeMode="center"
         >
-            <View style={styles.box}>
+            <View style={styles.box} blurRadius={20}>
                 <ScrollView>
                      <Text style={styles.texto}>O Gear Second foi apresentado durante o arco
                         de Ennies Lobby durante a luta de Luffy contra Blueno.
