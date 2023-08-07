@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
 
     texto:{
-        marginBottom: 5,
+        marginBottom: 15,
         fontSize: 30,
         textAlign: 'justify',
         letterSpacing: 1,
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
         textShadowColor: 'white',
         textShadowRadius: 1,
     }
+
 });
 
 export default styles;
