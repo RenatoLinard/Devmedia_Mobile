@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Inicio from './src/components/rotaInicio';
-import { Ionicons, Fontisto } from '@expo/vector-icons'; 
+import { Ionicons, Fontisto, AntDesign } from '@expo/vector-icons'; 
 import Quartos from './src/components/rotaQuartos';
 import Contato from './src/components/rotaContato';
 
@@ -16,7 +16,7 @@ export default function App() {
                     component={Inicio}
                     options={{
                         tabBarIcon: ({color}) => (
-                            <Ionicons name="home" size={26} color={color} />
+                            <Ionicons name="home" size={24} color={color} />
                         ),
                     }} 
             />
@@ -25,7 +25,7 @@ export default function App() {
                 component={Quartos}
                 options={{
                     tabBarIcon: ({color}) => (
-                        <Fontisto name="room" size={26} color={color} />
+                        <Fontisto name="room" size={24} color={color} />
                     ),
                 }} 
             />
@@ -34,7 +34,7 @@ export default function App() {
                 component={Contato}
                 options={{
                     tabBarIcon: ({color}) => (
-                        <Fontisto name="room" size={26} color={color} />
+                        <AntDesign name="contacts" size={24} color={color} />
                     ),
                 }} 
             />
