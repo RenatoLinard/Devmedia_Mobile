@@ -14,7 +14,15 @@ const Stack = createStackNavigator();
 export default function App() {
     return(
         <NavigationContainer>
-            <Stack.Navigator>
+            <Stack.Navigator
+                screenOptions={{
+                    headerTitleAlign: 'center',
+                    headerStyle: {
+                        backgroundColor: 'blue',
+
+                    }
+                }}
+            >
                 <Stack.Screen name='Gears do Luffy' component={Inicial}/>
                 <Stack.Screen name='Gear Second' component={Gear2}/>
                 <Stack.Screen name='Gear Third' component={Gear3}/>
