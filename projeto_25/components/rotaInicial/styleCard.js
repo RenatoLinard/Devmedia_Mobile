@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         borderRadius: 20,
         padding: 10,
-        backgroundColor: '#19344e',
+        backgroundColor: '#132B40',
         opacity: 0.7,
         borderWidth: 1,
         borderColor: 'white',
@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 27,
         fontStyle: 'italic',
-        textShadowColor: '#54a1d9',
-        textShadowRadius: 20,
+        textShadowColor: '#72C6D9',
+        textShadowRadius: 10,
      }
 
 });

@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageBackground, ScrollView, Pressable, Text, Image } from "react-native";
+import { ImageBackground, ScrollView, Pressable, Text, Image, View } from "react-native";
 import background from '../../assets/background.jpg';
 import styles from './styles';
 import card1 from '../../assets/card1.png';
@@ -12,17 +12,14 @@ import card4 from '../../assets/card4.png';
 
 export default function Inicial(props) {
     return(
-        <ImageBackground
-            source={background}
-            style={styles.container}
-        >
-
+        
+        <View style={styles.container}>
             <ScrollView>
 
                 <ImageBackground
                      source={card1}                
                      style={stylecard.container}
-                     borderRadius={30}>
+                     borderRadius={31}>
                      <Pressable
                         style={stylecard.boxContainer}
                         onPress={() => 
@@ -35,7 +32,7 @@ export default function Inicial(props) {
                 <ImageBackground
                      source={card2}                
                      style={stylecard.container}
-                     borderRadius={30}>
+                     borderRadius={31}>
                      <Pressable
                         style={stylecard.boxContainer}
                         onPress={() => 
@@ -48,7 +45,7 @@ export default function Inicial(props) {
                 <ImageBackground
                      source={card3}                
                      style={stylecard.container}
-                     borderRadius={30}>
+                     borderRadius={31}>
                      <Pressable
                         style={stylecard.boxContainer}
                         onPress={() => 
@@ -61,7 +58,7 @@ export default function Inicial(props) {
                 <ImageBackground
                      source={card4}                
                      style={stylecard.container}
-                     borderRadius={30}>
+                     borderRadius={31}>
                      <Pressable
                         style={stylecard.boxContainer}
                         onPress={() => 
@@ -72,6 +69,6 @@ export default function Inicial(props) {
                 </ImageBackground>
 
             </ScrollView>
-        </ImageBackground>
+        </View>
     )
 };

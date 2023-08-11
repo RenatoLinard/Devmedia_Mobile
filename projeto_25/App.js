@@ -18,8 +18,13 @@ export default function App() {
                 screenOptions={{
                     headerTitleAlign: 'center',
                     headerStyle: {
-                        backgroundColor: 'blue',
-
+                        backgroundColor: '#132B40',
+                    },
+                    headerTintColor: '#71C6D9',
+                    headerTitleStyle: {
+                        fontSize: 30,
+                        fontStyle: 'italic',
+                        fontWeight: '500',
                     }
                 }}
             >
