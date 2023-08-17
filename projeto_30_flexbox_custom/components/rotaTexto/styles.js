@@ -11,7 +11,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#F28B35',
         borderRadius: 35,
         opacity: 0.7,
-        alignContent: 'space-around',
+        alignItems: 'flex-start',
+        padding: 25,
+        justifyContent: 'space-evenly',
     },
 
     texto: {
