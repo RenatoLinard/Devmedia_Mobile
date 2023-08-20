@@ -5,19 +5,19 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#517354',
+        backgroundColor: '#171C26',
         paddingTop: 10,
     },
 
     tarja: {
         height: 60,
-        backgroundColor: '#04D939',
+        backgroundColor: '#3E4459',
         alignSelf: 'stretch',
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 30,
         opacity: 0.6,
-        marginBottom: 20,
+        marginBottom: 10,
     },
 
     textTarja: {
@@ -30,11 +30,14 @@ const styles = StyleSheet.create({
     },
 
     img: {
-        alignSelf: 'center'        
+        width: 360,
+        height: 250,
+        alignSelf: 'center',
+        borderRadius: 30,
     },
 
     card: {
-        backgroundColor: '#BF996B',
+        backgroundColor: '#676673',
         opacity: 0.6,
         margin: 20,
         borderRadius: 20,
@@ -60,17 +63,22 @@ const styles = StyleSheet.create({
     cardEspecif: {
         width: 140,
         height: 140,
-        backgroundColor: '#BF996B',
+        backgroundColor: '#9494A6',
         margin: 20,
         borderRadius: 20,
         alignItems: 'center',
         padding: 10,
+        opacity: 0.5,
+        borderColor: '#3E4459',
+        borderWidth: 2,
     },
     
     textoEspecif: {
         fontSize: 17,
         color: 'white',
         textAlign: 'center',
+        textShadowColor: 'white',
+        textShadowRadius: 1,
     },
 
     icon: {
