@@ -12,10 +12,11 @@ export default function Inicial() {
                  <Image
                     source={logo}
                     style={styles.logo}
-                
                   />
-                <Text style={styles.titulo}> Bem Vindo!!! </Text>
+            </View>
 
+            <View>
+                
             </View>
 
         </View>
