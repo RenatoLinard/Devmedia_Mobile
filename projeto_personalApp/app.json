@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "personalApp",
-    "slug": "personalApp",
+    "name": "projeto_personalApp",
+    "slug": "projeto_personalApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
