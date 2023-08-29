@@ -9,14 +9,16 @@ const styles = StyleSheet.create({
         borderBottomStartRadius: 60,
         alignItems: 'center',
         justifyContent: 'space-evenly',
-        padding: 30,
+        paddingHorizontal: 30,
     },
     img: {
+        marginTop: 30,
         height: 130,
         width: 250,
     },
 
     texto: {
+        marginTop: -20,
         color: '#F2F2F2',
         fontSize: 28,
         textAlign: 'center',
@@ -25,7 +27,8 @@ const styles = StyleSheet.create({
     },
 
     subtexto: {
-        marginTop: 40,
+        marginTop: 30,
+        marginBottom: 10,
         color: '#F2F2F2',
         fontSize: 20,
         marginHorizontal: 30,
