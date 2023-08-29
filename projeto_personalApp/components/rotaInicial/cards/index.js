@@ -1,13 +1,12 @@
 import React from 'react-native';
-import { Pressable, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import styles from './styles';
 import aluno from '../../../assets/sou_aluno.png';
 import personal from '../../../assets/sou_personal.png';
 
-export default function Cards(props) {
+export default function Cards() {
     return(
-        <Pressable style={styles.container}
-            onPress={() => {props.navigation.navigate('Login')}}>
+        <View style={styles.container}>
             <Image
                 source={aluno}
                 style={styles.img}
@@ -17,6 +16,6 @@ export default function Cards(props) {
                 source={personal}
                 style={styles.img}
             />
-        </Pressable>
+        </View>
     )
 };
