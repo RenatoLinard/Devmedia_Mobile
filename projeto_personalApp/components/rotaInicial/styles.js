@@ -9,15 +9,14 @@ const styles = StyleSheet.create({
     },
 
     cards: {
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: 10,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
     },
 
     img: {
-        width: 230,
-        height: 250,
+        marginTop: 80,
+        width: 420,
+        height: 330,
     }
 });
 
