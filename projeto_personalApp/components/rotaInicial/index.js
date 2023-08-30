@@ -12,7 +12,9 @@ export default function Inicial(props) {
             <BarraTitulo/>
 
             <View style={styles.cards}>
-                 <Pressable>
+                 <Pressable
+                    onPress={() => {props.navigation.navigate('LoginAluno')}}
+                 >
                     <Image
                         source={aluno}
                         style={styles.img}

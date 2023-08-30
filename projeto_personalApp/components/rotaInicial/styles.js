@@ -5,7 +5,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#61788C',
+        backgroundColor: '#4A4D60',
     },
 
     cards: {
@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
 
     img: {
         marginTop: 80,
-        width: 420,
-        height: 330,
+        width: 300,
+        height: 350,
     }
 });
 
