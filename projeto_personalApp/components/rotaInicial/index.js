@@ -1,16 +1,18 @@
 import React from "react";
 import { View, Pressable, Image } from "react-native";
 import styles from "./styles";
-import BarraTitulo from "./barraTitulo";
-import aluno from '../../assets/sou_aluno.png';
-import personal from '../../assets/sou_personal.png';
-
+import aluno from '../../assets/bottom_sou_aluno.png';
+import personal from '../../assets/bottom_sou_personal.png';
+import barraTitulo from '../../assets/barraTitulo.png';
 
 export default function Inicial(props) {
     return(
         <View style={styles.container}>
-            <BarraTitulo/>
+                <Image
+                    source={barraTitulo}
+                    style={styles.barraTitulo}
 
+                />
             <View style={styles.cards}>
                  <Pressable
                     onPress={() => {props.navigation.navigate('LoginAluno')}}
