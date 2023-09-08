@@ -5,25 +5,33 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#5e9188',
-        alignItems: 'center',
-        paddingTop: 35,
+        backgroundColor: '#BDBEBF',
     },
 
     barraTitulo: {
-        width: 420,
-        height: 350,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#5F6673',
+        height: 250,
+        borderBottomEndRadius: 50,
+        borderBottomStartRadius: 50,
+    },
+
+    logo: {
+        width: 300,
+        height: 300,
     },
 
     cards: {
-        flexDirection: 'column',
-        justifyContent: 'space-evenly',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
         alignItems: 'center',
     },
 
     img: {
-        width: 220,
-        height: 220,
+        marginTop: 130,
+        width: 270,
+        height: 270,
     }
 });
 

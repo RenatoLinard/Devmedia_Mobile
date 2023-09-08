@@ -1,18 +1,21 @@
 import React from "react";
 import { View, Pressable, Image } from "react-native";
 import styles from "./styles";
-import aluno from '../../assets/bottom_sou_aluno.png';
-import personal from '../../assets/bottom_sou_personal.png';
-import barraTitulo from '../../assets/barraTitulo.png';
-
+import aluno from '../../assets/botao_aluno.png';
+import personal from '../../assets/botao_personal.png';
+import logo from '../../assets/logo.png';
 export default function Inicial(props) {
     return(
         <View style={styles.container}>
-                <Image
-                    source={barraTitulo}
-                    style={styles.barraTitulo}
 
+            <View style={styles.barraTitulo}>
+                <Image
+                    source={logo}
+                    style= {styles.logo}
                 />
+
+            </View>
+
             <View style={styles.cards}>
                  <Pressable
                     onPress={() => {props.navigation.navigate('LoginAluno')}}
@@ -23,7 +26,9 @@ export default function Inicial(props) {
                     />
                  </Pressable>
 
-                 <Pressable>
+                 <Pressable
+                    onPress={() => {props.navigation.navigate('LoginPersonal')}}
+                 >
                     <Image
                         source={personal}
                         style={styles.img}
