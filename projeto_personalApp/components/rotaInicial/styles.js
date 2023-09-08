@@ -22,17 +22,20 @@ const styles = StyleSheet.create({
         height: 300,
     },
 
-    cards: {
+    buttom: {
+        flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
+        paddingHorizontal: 10,
+        paddingBottom: 70,
     },
 
     img: {
-        marginTop: 130,
-        width: 270,
-        height: 270,
-    }
+        width: 260,
+        height: 260,
+    },
+
 });
 
 export default styles;

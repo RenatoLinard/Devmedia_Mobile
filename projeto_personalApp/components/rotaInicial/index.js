@@ -4,6 +4,10 @@ import styles from "./styles";
 import aluno from '../../assets/botao_aluno.png';
 import personal from '../../assets/botao_personal.png';
 import logo from '../../assets/logo.png';
+
+
+
+
 export default function Inicial(props) {
     return(
         <View style={styles.container}>
@@ -16,9 +20,10 @@ export default function Inicial(props) {
 
             </View>
 
-            <View style={styles.cards}>
+            <View style={styles.buttom}>
+
                  <Pressable
-                    onPress={() => {props.navigation.navigate('LoginAluno')}}
+                    onPress={()=> {props.navigation.navigate('LoginAluno')}}
                  >
                     <Image
                         source={aluno}
@@ -27,13 +32,14 @@ export default function Inicial(props) {
                  </Pressable>
 
                  <Pressable
-                    onPress={() => {props.navigation.navigate('LoginPersonal')}}
+                    onPress={()=> {props.navigation.navigate ('LoginPersonal')}}
                  >
                     <Image
                         source={personal}
                         style={styles.img}
                     />
                  </Pressable>
+
            </View> 
         </View>
     )

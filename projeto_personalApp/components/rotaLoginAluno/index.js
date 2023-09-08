@@ -1,16 +1,12 @@
 import React from "react";
-import { View, TextInput, Image } from "react-native";
-import styles from './styles';
+import { Text } from "react-native";
 
 
 
 export default function LoginAluno() {
     return(
-        <View style={styles.container}>
-
-           <View style={styles.card}>
-
-           </View>
-        </View>
+        <Text>
+            Hello World!!!
+        </Text>
     )
 };
