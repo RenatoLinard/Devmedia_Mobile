@@ -5,20 +5,20 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#BDBEBF',
+        backgroundColor: '#BFBBB4',
     },
 
     barraTitulo: {
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#5F6673',
+        backgroundColor: '#403E3B',
         height: 250,
         borderBottomEndRadius: 50,
         borderBottomStartRadius: 50,
     },
 
     logo: {
-        width: 300,
+        width: 600,
         height: 300,
     },
 

@@ -3,7 +3,7 @@ import { View, Pressable, Image } from "react-native";
 import styles from "./styles";
 import aluno from '../../assets/botao_aluno.png';
 import personal from '../../assets/botao_personal.png';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo_com_slogan.png';
 
 
 
