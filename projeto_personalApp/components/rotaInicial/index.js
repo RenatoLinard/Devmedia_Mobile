@@ -23,7 +23,7 @@ export default function Inicial(props) {
             <View style={styles.buttom}>
 
                  <Pressable
-                    onPress={()=> {props.navigation.navigate('LoginAluno')}}
+                    onPress={()=> {props.navigation.navigate('Login')}}
                  >
                     <Image
                         source={aluno}
@@ -32,7 +32,7 @@ export default function Inicial(props) {
                  </Pressable>
 
                  <Pressable
-                    onPress={()=> {props.navigation.navigate ('LoginPersonal')}}
+                    onPress={()=> {props.navigation.navigate ('Login')}}
                  >
                     <Image
                         source={personal}

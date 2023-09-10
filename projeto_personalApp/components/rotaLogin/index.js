@@ -1,13 +1,13 @@
 import React from "react";
-import { View, ScrollView, Image, TextInput, Text } from "react-native";
+import { View, Image, TextInput, Text, Pressable } from "react-native";
 import styles from "./styles";
 import logo from '../../assets/logo_sem_slogan.png';
 import email from '../../assets/o-email.png';
 import password from '../../assets/cadeado.png';
 
-export default function LoginPersonal(){
+export default function Login(){
     return(
-        <ScrollView style={styles.container}>
+        <View style={styles.container}>
 
             <View style={styles.card}>
                 <Image
@@ -27,7 +27,7 @@ export default function LoginPersonal(){
                     source={password}
                     style={styles.icons}
                 />
-                    <TextInput>Email</TextInput>
+                    <TextInput>Password</TextInput>
                 </View>
                 
                 <Text style={styles.text}>
@@ -39,8 +39,12 @@ export default function LoginPersonal(){
                     <Text style={styles.text_destaque}> Enter </Text>
                 </View>
 
-                <Text style={styles.text_destaque2}> Creat an account! </Text>
+                <Pressable>
+                    <Text style={styles.text_pressble}> 
+                        Creat an account!
+                    </Text>
+                </Pressable>
             </View>
-        </ScrollView>
+        </View>
     )
 };

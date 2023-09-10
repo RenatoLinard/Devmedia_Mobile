@@ -7,22 +7,22 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#BFBBB4',
-        paddingTop: 40,
         paddingHorizontal: 20,
+        justifyContent: 'center',
     },
 
     card: {
-        flex: 1,
         backgroundColor: '#403E3B',
         borderColor: '#012606',
         borderRadius: 30,
         borderWidth: 2,
         opacity: 0.9,
         alignItems: 'center',
+        height: 600,
     },
 
     logo: {
-        marginVertical: -50,
+        marginVertical: -60,
         width: 500,
         height: 300,
     },
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 
     text: {
         color: '#BFBBB4',
-        marginBottom: 30,
+        marginBottom: 50,
         
     },
 
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 15,
     },
-    text_destaque2: {
+    text_pressble: {
         color: 'white',
         fontWeight: 'bold',
         fontSize: 17,

@@ -2,8 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Inicial from "./components/rotaInicial";
-import LoginAluno from "./components/rotaLoginAluno";
-import LoginPersonal from "./components/rotaLoginPersonal";
+import Login from "./components/rotaLogin";
 
 
 
@@ -24,16 +23,10 @@ export default function App() {
                 />
 
                 <Stack.Screen
-                    name="LoginAluno"
-                    component={LoginAluno}
+                    name="Login"
+                    component={Login}
                 />
                 
-                <Stack.Screen
-                    name="LoginPersonal"
-                    component={LoginPersonal}
-                />
-
-
                 
             </Stack.Navigator>
         </NavigationContainer>
