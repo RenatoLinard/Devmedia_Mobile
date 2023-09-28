@@ -5,7 +5,7 @@ import logo from '../../assets/logo_sem_slogan.png';
 import email from '../../assets/o-email.png';
 import password from '../../assets/cadeado.png';
 
-export default function Login(){
+export default function Login(props){
     return(
         <View style={styles.container}>
 
@@ -39,7 +39,9 @@ export default function Login(){
                     <Text style={styles.text_destaque}> Enter </Text>
                 </View>
 
-                <Pressable>
+                <Pressable
+                    onPress={() => props.navigation.navigate('CreateLogin')}
+                >
                     <Text style={styles.text_pressble}> 
                         Creat an account!
                     </Text>

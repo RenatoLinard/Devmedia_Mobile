@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Inicial from "./components/rotaInicial";
 import Login from "./components/rotaLogin";
-
+import CreateLogin from "./components/rotaCreateAccount";
 
 
 const Stack = createStackNavigator();
@@ -25,6 +25,11 @@ export default function App() {
                 <Stack.Screen
                     name="Login"
                     component={Login}
+                />
+
+                <Stack.Screen
+                    name="CreateLogin"
+                    component={CreateLogin}
                 />
                 
                 
