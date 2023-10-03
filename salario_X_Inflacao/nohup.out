@@ -1,0 +1,66 @@
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 54.1 MB/s (56995 bytes in 0.001s)
+[server] INFO: Device: [Xiaomi] xiaomi Redmi Note 8 (Android 10)
+[server] WARN: Audio disabled: it is not supported before Android 11
+WARN: Demuxer 'audio': stream explicitly disabled by the device
+[server] INFO: Device screen turned off
+WARN: Killing the server...
+scrcpy 2.1.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  192.168.0.117:5555              device  Redmi_Note_8
+INFO: Renderer: opengl
+INFO: OpenGL version: 4.6 (Compatibility Profile) Mesa 23.1.8-arch1.1
+INFO: Trilinear filtering enabled
+INFO: Texture: 1080x2336
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 195.4 MB/s (56995 bytes in 0.000s)
+[server] INFO: Device: [Xiaomi] xiaomi Redmi Note 8 (Android 10)
+[server] WARN: Audio disabled: it is not supported before Android 11
+WARN: Demuxer 'audio': stream explicitly disabled by the device
+[server] INFO: Device screen turned off
+WARN: Device disconnected
+scrcpy 2.1.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  192.168.0.117:5555              device  Redmi_Note_8
+INFO: Renderer: opengl
+INFO: OpenGL version: 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.1
+INFO: Trilinear filtering enabled
+INFO: Texture: 1080x2336
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 259.3 MB/s (56995 bytes in 0.000s)
+[server] INFO: Device: [Xiaomi] xiaomi Redmi Note 8 (Android 10)
+[server] WARN: Audio disabled: it is not supported before Android 11
+WARN: Demuxer 'audio': stream explicitly disabled by the device
+[server] INFO: Device screen turned off
+WARN: Device disconnected
+scrcpy 2.1.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  192.168.0.117:5555              device  Redmi_Note_8
+INFO: Renderer: opengl
+INFO: OpenGL version: 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.1
+INFO: Trilinear filtering enabled
+INFO: Texture: 1080x2336
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 256.1 MB/s (56995 bytes in 0.000s)
+[server] INFO: Device: [Xiaomi] xiaomi Redmi Note 8 (Android 10)
+[server] WARN: Audio disabled: it is not supported before Android 11
+WARN: Demuxer 'audio': stream explicitly disabled by the device
+[server] INFO: Device screen turned off
+[server] INFO: Device clipboard set
+WARN: Device disconnected
+scrcpy 2.1.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  192.168.0.117:5555              device  Redmi_Note_8
+INFO: Renderer: opengl
+INFO: OpenGL version: 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.1
+INFO: Trilinear filtering enabled
+INFO: Texture: 1080x2336
+/usr/share/scrcpy/scrcpy-server: 1 file pushed, 0 skipped. 181.2 MB/s (56995 bytes in 0.000s)
+[server] INFO: Device: [Xiaomi] xiaomi Redmi Note 8 (Android 10)
+[server] WARN: Audio disabled: it is not supported before Android 11
+WARN: Demuxer 'audio': stream explicitly disabled by the device
+[server] INFO: Device screen turned off
+WARN: Killing the server...
+scrcpy 2.1.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  192.168.0.117:5555              device  Redmi_Note_8
+INFO: Renderer: opengl
+INFO: OpenGL version: 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.1
+INFO: Trilinear filtering enabled
+INFO: Texture: 1080x2336

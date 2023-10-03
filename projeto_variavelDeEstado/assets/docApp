@@ -1,0 +1,10 @@
+############### Variavel de estado #################
+
+- A variavel de estado é uma parte importante da gestão de dados do aplicativo
+    Com elas podem armazenar informações que podem alterar ao longo do tempo
+    e que prcisam ser rastreadas e refletidas na UI
+
+- Evento onPress é sempre que precisamos tocar em um botão que queremos 
+    que algo aconteça
+    
+

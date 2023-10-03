@@ -1,20 +1,46 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Salario from './components/rotaSalario';
+import Inflacao from './components/rotaInflacao';
+import Comparacao from './components/rotaComparacao';
+import { Feather } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
+
+
+
+
+const Tabs = createBottomTabNavigator();
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    return(
+        <NavigationContainer>
+            <Tabs.Navigator>
+                
+                <Tabs.Screen
+                    name='Salário'
+                    component={Salario}
+                    options={{
+                        tabBarIcon: ({color}) => (<Feather name="dollar-sign" size={24} color={color} />)}}
+                />
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+                <Tabs.Screen
+                    name='Inflação'
+                    component={Inflacao}
+                    options={{
+                        tabBarIcon: ({color}) => (<Feather name="trending-up" size={24} color={color} />)
+                    }}
+                />
+
+                <Tabs.Screen
+                    name='Salário x Inflação'
+                    component={Comparacao}
+                    options={{
+                        tabBarIcon:({color}) => (<MaterialIcons name="compare-arrows" size={24} color={color} />)
+                    }}
+                />
+
+            </Tabs.Navigator>
+        </NavigationContainer>
+    )
+};
