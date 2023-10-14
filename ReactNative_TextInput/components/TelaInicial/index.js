@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Pressable, Image } from "react-native";
+import { View, Text, Pressable, Image } from "react-native";
 import styles from "./styles";
 import botao from '../../assets/botao.png';
+import BoxOnFocus from "../CaixaTxt/BoxTxtOnFocus";
+
 
 const TelaInicial = () => {
     const [NumeroSorteado, setNumeroSorteado] = useState(0);
-
-    const [InputFocus, setInputFocus] = useState('');
 
     const GerarNumero = () => {
         const novoNumero = Math.floor(Math.random() * 100 + 1);
@@ -17,33 +17,15 @@ const TelaInicial = () => {
     return(
         <View style= {styles.geral}>
             
-            <View style={styles.container}>
+            <View style={styles.CaixaTexto}>
                 <Text style={styles.txt1}>
                    Escolha os valores mínimos e máximos para iniciar o sorteio:
                 </Text>
             </View>
             
-            <View style={styles.box}>
-                <Text> Valor Mínimo: </Text>
-                <TextInput
-                    style={styles.txtInput}
-                    textAlign="center"
-                    keyboardType="number-pad"
-                    maxLength={5}
-                    autoFocus= {true}
-                />
-            </View>
-        
-            <View style={styles.box}>
-                <Text> Valor Máximo: </Text>
-                <TextInput
-                    style={styles.txtInput}
-                    cursorColor={'black'}
-                    textAlign="center"
-                    keyboardType="number-pad"
-                    maxLength={5}
-                />
-            </View>
+            <BoxOnFocus
+            />
+            
             
             <Pressable
                 onPress={() => {

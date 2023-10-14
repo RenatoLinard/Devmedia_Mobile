@@ -7,12 +7,13 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    container: {
+    CaixaTexto: {
+        marginBottom: 20,
         width: '100%',
         height: 100,
         backgroundColor: '#062c3c',
         justifyContent: 'center',
-        borderRadius: 20,
+        borderRadius: 8,
         padding: 10,
     },
 
@@ -22,24 +23,10 @@ const styles = StyleSheet.create({
         textAlign: 'center'
     },
 
-    box: {
-        flexDirection: 'row',
-        marginTop: 30,
-        alignItems: 'center'
-    },
-
-    txtBox: {
-        borderWidth: 3,
-        borderColor: '#d5d5d5',
-        borderRadius: 20,
-        width: 200,
-        height: 50,
-        paddingHorizontal: 5,
-    },
-
     botao: {
         width: 110,
         height: 110,
+        marginBottom: 20,
     },
 
     circle: {
@@ -58,12 +45,6 @@ const styles = StyleSheet.create({
         color: 'white',
     },
 
-    txtInput: {
-        fontSize: 20,
-        color: 'white',
-        fontWeight: 'bold',
-        borderWidth: 3,
-    },
 });
 
 export default styles;

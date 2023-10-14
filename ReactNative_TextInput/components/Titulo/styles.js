@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         backgroundColor: '#1a5060',
-        borderBottomLeftRadius: 20,
-        borderBottomRightRadius: 20,
+        borderBottomLeftRadius: 8,
+        borderBottomRightRadius: 8,
         paddingTop: 25,
         paddingLeft: 10,
         alignItems: 'center'
