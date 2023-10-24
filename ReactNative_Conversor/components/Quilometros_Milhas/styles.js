@@ -25,6 +25,8 @@ const styles = StyleSheet.create ({
         backgroundColor: 'white',
         opacity: 0.7,
         borderRadius: 16,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 
     titulo: {
@@ -35,8 +37,45 @@ const styles = StyleSheet.create ({
     },
 
     button : {
-        width: 50,
+        width: 120,
+        height: 40,
+        borderColor:'black',
+        borderWidth:1,
+        borderRadius:8,
+        backgroundColor:'lightgreen',
+        justifyContent:'center',
+        alignItems: 'center',
+        marginHorizontal: 10,
+    },
+
+    align_Botton_Txt: {
+        flexDirection: 'row',
+        marginTop: 20,
+        alignItems: 'center',
+
+    },
+
+    txt_Input: {
         height: 50,
+        width: 200,
+        backgroundColor: 'white',
+        borderColor: 'black',
+        borderWidth: 1,
+        borderRadius: 8,
+    },
+
+    number_second_box: {
+        fontSize: 120,
+        color: 'black',
+        textShadowColor: 'black',
+        textShadowRadius: 1,
+    },
+
+    txt_second_box: {
+        fontSize: 30,
+        color: 'black',
+        textShadowColor: 'black',
+        textShadowRadius: 1,
     }
 });
 
